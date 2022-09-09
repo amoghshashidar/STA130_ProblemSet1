@@ -13,7 +13,7 @@ knitr::opts_chunk$set(eval=TRUE, include=TRUE, echo=TRUE, warning=FALSE, message
 
 # Instructions
 
-Complete the excercises in this .Rmd file and submit your .Rmd and .pdf output through [Quercus](https://q.utoronto.ca/courses/253019/assignments/782402) on September 15 by 5:00 p.m. ET. 
+Complete the exercises in this `.Rmd` file and submit your `.Rmd` and knitted `.pdf` output through [Quercus](https://q.utoronto.ca/courses/277998/assignments/910590) on September 15 by 5:00 p.m. ET. 
 
 # Part 1: R Coding Practice
 
@@ -30,6 +30,7 @@ For this question we will work with data about the old TV show Avatar: The Last 
 
 ```{r}
 # Write your answer below
+# Don't forget to put quote marks around the data set name in the function
 
 ```
 
@@ -190,6 +191,8 @@ Suppose you ask your friends to name 10 songs produced prior to Dec 31, 1999 and
 
 ### (c) Could there be a systematic reason that the 10 songs produced prior to Dec 31, 1999 that your friend selected might be expected to have a higher number of listens?
 
+*REPLACE THIS TEXT WITH YOUR ANSWER*
+
 #### Hints
 - Are the 10 songs produced prior to Dec 31, 1999 that your friend selected fairly representative of all songs produced prior to Dec 31, 1999?
 - This question is addressing ***survivorship bias***, which will be considered further in your upcoming tutorial class.
@@ -200,7 +203,7 @@ Did you finish quickly?  Do you still have an unused course study time allocatio
 
 ## More Introductory R Material
 
-The following materials all approach learning R slightly differently, but they each have quite good perspective.
+The following materials all approach learning R slightly differently, but they each have quite good perspectives.
 
 - [R for Data Science Chapter 4: Workflow basics](https://r4ds.had.co.nz/workflow-basics.html)
 - [Rstudio Primer: Programming Basics](https://rstudio.cloud/learn/primers/1.2)
@@ -208,7 +211,7 @@ The following materials all approach learning R slightly differently, but they e
 
 ## Markdown
 
-Markdown supports efficiency and productivity, and it's needed for our class.
+Markdown supports efficiency and productivity, and it's important for our class for the course project (and beyond).
 
 - [Markdown Tutorial](https://www.markdowntutorial.com/)
 - [RStudio Markdown](https://rmarkdown.rstudio.com/)
