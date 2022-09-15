@@ -1,6 +1,6 @@
 ---
 title: "STA130H1S -- Fall 2022"
-author: "<Student Name> (<Student Number>) and STA130 Professors"
+author: Amogh Shashidhar Prasad (1008817666) and Scott Schwartz
 subtitle: Problem Set 1
 urlcolor: blue
 output:
@@ -32,7 +32,8 @@ For this question we will work with data about the old TV show Avatar: The Last 
 # Write your answer below
 # Don't forget to put quote marks around the data set name in the function
 
-```
+"avatar" = read.csv(avatar.csv)
+'''
 
 #### Hints to help fix common "gotchas"
 - `Error in read_csv(avatar.csv) : could not find function "read_csv"`
@@ -46,12 +47,12 @@ For this question we will work with data about the old TV show Avatar: The Last 
 
 ```{r}
 # Write your answer below
-
+"pipe" = glimpse(avatar)
 ```
 
 ```{r}
 # Write your answer below
-
+"pipe" = head(avatar)
 ```
 
 \newpage <!-- Move and use the `\newpage` break marker as needed
@@ -108,11 +109,11 @@ Below is a 'math square puzzle'. The value for each row and column is shown afte
 r1 <- 6 + 4
   
 # Row 2 (r2)
-
+r2 <- 1 - 2
 # Column 1 (c1)
-
+c1 = 9 / 3
 # Column 2 (c2)
-
+c2 = 6 * 2
 ```
 
 ### (b) Now, let's check each of your answers individually with the logical `==` operation.
